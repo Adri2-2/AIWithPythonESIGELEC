@@ -1,0 +1,6 @@
+# Additional packages for Lab 5. Install into the same course .venv.
+# For CPU/GPU-specific Torch builds, refer to https://pytorch.org/get-started/locally/
+torch>=2.3,<3
+ultralytics>=8.3,<9
+opencv-python>=4.8,<5
+Pillow>=10,<13

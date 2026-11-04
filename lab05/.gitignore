@@ -1,0 +1,7 @@
+# Lab 5 output files; root repository should also ignore these.
+__pycache__/
+.ipynb_checkpoints/
+captures/
+runs/
+*.pt
+.DS_Store

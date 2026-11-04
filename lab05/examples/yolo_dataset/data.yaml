@@ -1,0 +1,7 @@
+# Toy dataset for understanding the annotation format; NOT real model training data.
+path: .
+train: images/train
+val: images/val
+names:
+  0: red_square
+  1: blue_circle
