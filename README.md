@@ -44,7 +44,7 @@ You will work **locally**, using JupyterLab and a Python virtual environment (`.
 If Git is installed, open a terminal and clone the repository:
 
 ```bash
-git clone https://github.com/WYTan-THMA/AIWithPython.git
+git clone https://github.com/WYTan-THMA/AIWithPythonESIGELEC.git
 cd AIWithPython
 ```
 
