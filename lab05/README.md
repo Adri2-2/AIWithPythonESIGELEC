@@ -62,7 +62,7 @@ In JupyterLab, open `lab05/` and run `00-environment-check.ipynb` first. The not
 
 **First YOLO use** may download `yolo11n.pt` automatically. The sample image and sample video are already included and do not need internet access, but inference requires the model weights.
 
-## Notebook 01 — Your First Neural Network with PyTorch (45 min)
+## Notebook 01 — Your First Neural Network with PyTorch (35 min)
 
 **File:** `01-pytorch-neural-network.ipynb`  
 **Dataset:** `data/digits.csv` (1,797 examples, 64 features, 10 classes)
@@ -75,7 +75,7 @@ In JupyterLab, open `lab05/` and run `00-environment-check.ipynb` first. The not
 
 **Checkpoint:** Understand how neural networks learn and how that differs from directly calling scikit-learn's `.fit()`.
 
-## Notebook 02 — Object Detection with Ultralytics YOLO (50 min)
+## Notebook 02 — Object Detection with Ultralytics YOLO (30 min)
 
 **File:** `02-yolo-object-detection.ipynb`  
 **Input:** `data/sample.jpg`
