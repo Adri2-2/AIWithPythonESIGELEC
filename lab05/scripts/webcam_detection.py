@@ -63,7 +63,12 @@ def main() -> int:
                 break
 
             probs = cls_model.predict(frame, imgsz=args.imgsz, device='cpu', verbose=False)[0].probs
-            label = f'{cls_model.names[probs.top1]}  {probs.top1conf.item():.0%}'
+            confidence = probs.top1conf.item()
+
+            if confidence < 0.20:
+                label = "Non detected"
+            else:
+                label = f'{cls_model.names[probs.top1]}  {confidence:.0%}'
 
             box = None
             if det_model is not None:
